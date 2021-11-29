@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 80%;
+  font-size: 5em;
+  text-align: center;
+}
+
+.container h1 {
+  width: 60%;
+  margin-top: 50px;
+}
+
+.btnVoltar{
+  height: 50px;
+  width: 120px;
+  border-radius: 20px;
+  margin-top: 30px;
+  border-color: #063970;
+  background-color: #085a94;
+  text-decoration: none;
+  color: #F0f0f0;
+  font-size: 20px;
+}
+
+.btnVoltar:hover{
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+  opacity: 90%;
+}
+
+.btnVoltar:active{
+  background-color: #063970;
+  transition: all 1s ease-out;
+}
